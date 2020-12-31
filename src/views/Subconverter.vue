@@ -291,15 +291,6 @@ export default {
               }
             ]
           },
-	  {
-	  label: "游戏规则",
-            options: [
-              {
-                label: "Eason提供游戏规则",
-                value: "https://raw.githubusercontent.com/kszym2002/Merlin_SS/main/game.ini"
-              }
-            ]
-          },
           {
             label: "ACL4SSR",
             options: [
