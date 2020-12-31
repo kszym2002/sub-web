@@ -294,6 +294,11 @@ export default {
           {
             label: "ACL4SSR",
             options: [
+	     {
+                label: "游戏规则（Eason提供）",
+                value:
+                  "https://raw.githubusercontent.com/kszym2002/Merlin_SS/main/game.ini"
+              },
               {
                 label: "ACL4SSR_Online 默认版 分组比较全(与Github同步)",
                 value:
