@@ -291,6 +291,7 @@ export default {
               }
             ]
           },
+	  {
 	  label: "游戏规则",
             options: [
               {
