@@ -268,7 +268,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "sub-beta.now.sh (自动编译最新版本后端-测试）": "https://sub-beta.now.sh/sub?",
+          "Eason-game (eason提供Sub）": "https://sub.boom233.com/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
@@ -276,7 +276,7 @@ export default {
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://sub-beta.now.sh/sub?" },
+          { value: "https://sub.boom233.com/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
           { value: "https://api.wcc.best/sub?" },
@@ -288,6 +288,14 @@ export default {
               {
                 label: "不选，由接口提供方提供",
                 value: ""
+              }
+            ]
+          },
+	  label: "游戏规则",
+            options: [
+              {
+                label: "Eason提供游戏规则",
+                value: "https://raw.githubusercontent.com/kszym2002/Merlin_SS/main/game.ini"
               }
             ]
           },
@@ -588,7 +596,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "clash&new_name=true";
-    this.form.customBackend = "https://sub-beta.now.sh/sub?";
+    this.form.customBackend = "https://sub.boom233.com/sub?";
     this.form.remoteConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
     this.getBackendVersion();
   },
