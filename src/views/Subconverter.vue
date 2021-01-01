@@ -589,7 +589,7 @@ export default {
   mounted() {
     this.form.clientType = "clash&new_name=true";
     this.form.customBackend = "https://sub.boom233.com/sub?";
-    this.form.remoteConfig = "游戏规则（Eason提供）";
+    this.form.remoteConfig = "https://raw.githubusercontent.com/kszym2002/Merlin_SS/main/game.ini";
     this.getBackendVersion();
   },
   methods: {
