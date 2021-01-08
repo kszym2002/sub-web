@@ -242,7 +242,7 @@ export default {
   data() {
     var data = {
       backendVersion: '',
-      advanced: "1",
+      advanced: "2",
 
       // 是否为 PC 端
       isPC: true,
@@ -522,12 +522,12 @@ export default {
         emoji: true,
         nodeList: false,
         extraset: false,
-        sort: false,
-        udp: false,
+        sort: true,
+        udp: true,
         tfo: false,
         scv: false,
         fdn: false,
-        appendType: false,
+        appendType: true,
         insert: false, // 是否插入默认订阅的节点，对应配置项 insert_url
         new_name: true, // 是否使用 Clash 新字段
 
